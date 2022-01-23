@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Graduate&family=Saira+Semi+Condensed:wght@300;400&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="js/style.js"></script>
+</head>
+
+<body>
+    <header class="flex-content">
+        <div class="content-flex">
+                <h1>WELCOME TO SHOWCASE </h1>
+            <p>Have you ever wondered why some designers are so successful? Certain designers are incredibly skilled at
+                showcasing their work and skills through channels like online portfolios and blogs, making them stand
+                out from the crowd. If you want to gain recognition for your work and build a larger client base, you
+                need to do an excellent job of branding yourself and your business.
+            </p>
+        </div>
+
+        <img class="content-img" src="img/newproject.png" alt="newpro">
+
+    </header>
+    <nav class="flex flex-img background-col">
+        <ul class="flex-ul">
+            <li class="hover-li-a">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a class="hover-li-a" href="#">Contact</a>
+            </li>
+            <li>
+                <a class="hover-li-a" href="#">service</a>
+            </li>
+            <li class="hover-li-a"><a href="#">About us</a></li>
+        </ul>
+    </nav>
+
+    <!-- content section -->
+
+    <div class="container-fluid">
+        <div class="container">
+                <p>How you can start with show case,there's nothing more important than showing potential customers or
+                    clients just what you can do. But as a consultant, freelancer or small business person with a
+                    specialized focus, it can be difficult to know how to show off without feeling like you're, well,
+                    showing off. That's just one among several reasons so many of us put the task off, preferring to
+                    rely instead on ad hoc strategies. </p>
+
+                <button class="btn btn-sm" onclick="openForm()">SIGN UP</button>
+
+                <div id="form-display" class="loginPopUp">
+                    <div class="login-form">
+                        <form class="form-login" action="">
+                            <h1>Login</h1>
+                            
+                            <div class="em">
+                                <label for=""><b>Email:</b></label>
+                            <input class="input-em" placeholder="Email" type="email">
+                        </div>
+                        
+                        <div class="pass">
+                            <label for=""><b>Password:</b></label>
+                            <input class="input-pass" placeholder="Password" type="password">
+                        </div>
+                        
+                        <div class="button">
+                            <button class="submit" type="submit">login</button>
+                            <button class="cancel" onclick="closeForm()">close</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-sec">
+            <div class="para1">                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos in debitis natus saepe ut itaque
+                    neque! Officiis voluptatibus, sunt incidunt, mollitia dolor itaque explicabo, reiciendis ipsum
+                    temporibus alias voluptate modi autem quibusdam voluptas quas iure! A!</p>
+            </div>
+        </div>
+    </div>
+    <!-- content section ends -->
+
+
+
+
+    <!-- cards -->
+    <section>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div onmouseover="on()" onmouseout="out()" class="card-head">
+                        <img id="card-img" src="img/gif-road.gif">
+                    </div>
+                    <div class="card-body">
+                        <p>nokia phone op phone Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                        perferendis. Amet, optio!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div onmouseover="on1()" onmouseout="out1()" class="card-head">
+                        <img id="card-img1" src="img/market.gif">
+                    </div>
+                    <div class="card-body">
+                        <p>nokia phone op phone Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+                            accusamus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div onmouseover="on2()" onmouseout="out2()" class="card-head">
+                        <img id="card-img2" src="img/road-1.gif">
+                    </div>
+                    <div class="card-body">
+                        <p>nokia phone op phone Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque nobis
+                            voluptate itaque.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div onmouseover="on3()" onmouseout="out3()" class="card-head">
+                        <img id="card-img3" src="img/getstartwith.gif">
+                    </div>
+                    <div class="card-body">
+                        <p>nokia phone op phone Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aut
+                            architecto sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="frame-container">
+        <div class="main-con">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div class="whole-card">
+            <div class="small-card">
+                <div class="sm-card">
+                   <a href="#">  <img src="img/bb.png" alt=""> </a>
+                </div>
+                <div class="sm-card">
+                    <a href="#"><img src="img/2.png" alt=""></a>
+                </div>
+                <div class="sm-card">
+                   <a href="#"> <img src="img/3.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="large-card">
+                <div class="lg-card">
+                    <a href="#"><img src="img/4.png" alt=""></a>
+                </div>
+                <div class="lg-card">
+                    <a href="#"><img src="img/5.png" alt=""></a>
+                </div>
+                <div class="lg-card">
+                    <a href="#"><img src="img/6.png" alt=""></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!--
+
+    //navigation bar    
+    Logo to the left
+    prop--Flex-box--
+
+    home
+    contact
+    service
+    about us
+
+    //for the mobile Hamburger to the right
+    //and display none the whole navbar items
+
+
+    //after nav
+    //context about the site or project
+    prop--flex-box--
+    What is all about
+
+    to the left
+
+
+    big UI/UX desgin to the right
+
+
+    //after context
+    followed by cards 
+    single row -- followed by 4 cols 
+
+    4 cards about the sessions
+    hover effects respectivly and no active card, not a single one
+ 
+
+    //after cards 
+    again padd - right to left 40px or something after the cards 
+    about the site and background rgb(_______) square type info to the right and Image to the right...
+
+
+
+    Content
+    Why this is important 
+    and why you need to use it!
+
+    Content------------------------------
+    -------------------------------------
+    -------------------------------------
+    -->
+</body>
+
+</html>
